@@ -17,6 +17,9 @@ public class AnimalPicker {
             }else if(animal.equalsIgnoreCase("cat")){
                 System.out.println(" /\\_/\\\n( o.o )\n > ^ <\n"); // Cat
                 valid = true;
+            }else if(animal.equalsIgnoreCase("fish")){
+                System.out.println("      /`·.¸\n     /¸...¸`:·\n ¸.·´  ¸   `·.¸.·´)\n: © ):´;      ¸  {\n `·.¸ `·  ¸.·´\\`·¸)\n     `\\\\´´\\¸.·´"); // Fish
+                valid = true;
             }else{
                 System.out.println("ERROR: enter valid animal\n"); // Prints out error if not dog or cat
             }
