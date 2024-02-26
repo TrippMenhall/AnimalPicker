@@ -12,10 +12,10 @@ public class AnimalPicker {
             String animal = sc.nextLine();
 
             if(animal.equalsIgnoreCase("dog")){
-                System.out.println("DOG ASCII ART HERE"); // Debug
+                System.out.println(",-.___,-.\n\\_/_ _\\_/\n  )O_O(\n { (_) }\n  `-^-' "); // Dog
                 valid = true;
             }else if(animal.equalsIgnoreCase("cat")){
-                System.out.println("CAT ASCII ART HERE"); // Debug
+                System.out.println(" /\\_/\\\n( o.o )\n > ^ <\n"); // Cat
                 valid = true;
             }else{
                 System.out.println("ERROR: enter valid animal\n"); // Prints out error if not dog or cat
