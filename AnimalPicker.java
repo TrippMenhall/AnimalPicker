@@ -21,8 +21,8 @@ public class AnimalPicker {
                 System.out.println("      /`·.¸\n     /¸...¸`:·\n ¸.·´  ¸   `·.¸.·´)\n: © ):´;      ¸  {\n `·.¸ `·  ¸.·´\\`·¸)\n     `\\\\´´\\¸.·´"); // Fish
                 valid = true;
             }else if(animal.equalsIgnoreCase("fish")){
-                    System.out.println("        ,--,\n  _ ___/ /\\|\n ;( )__, )\n; //   \'--;\n  \\     |\n   ^    ^"); // Horse
-                    valid = true;
+                System.out.println("        ,--,\n  _ ___/ /\\|\n ;( )__, )\n; //   \'--;\n  \\     |\n   ^    ^"); // Horse
+                valid = true;
             }else{
                 System.out.println("ERROR: enter valid animal\n"); // Prints out error if not dog, cat, fish, or horse
             }
